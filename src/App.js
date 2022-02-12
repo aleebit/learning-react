@@ -13,9 +13,9 @@ const App = () => {
        Hello Larry 
       </h1>
 
-      <Greeting />
-      <Greeting />
-      <Greeting />
+      <Greeting name='Larry'/>
+      <Greeting name='Curly'/>
+      <Greeting name='Moe'/>
       <Greeting />
       <Greeting />
       <Greeting></Greeting>

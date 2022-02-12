@@ -9,16 +9,24 @@ const App = () => {
       Hello World
       </h1>
 
+
       <h1>
        Hello Larry 
       </h1>
 
-      <Greeting name='Larry'/>
-      <Greeting name='Curly'/>
-      <Greeting name='Moe'/>
-      <Greeting />
-      <Greeting />
-      <Greeting></Greeting>
+      <Greeting 
+      name='Larry'
+      favoriteNumber={10}
+      />
+      <Greeting 
+      name='Curly'
+      favoriteNumber={20}
+      />
+      <Greeting 
+      name='Moe'
+      favoriteNumber={30}
+      />
+
 
     </>
 
